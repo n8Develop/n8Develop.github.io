@@ -1,0 +1,50 @@
+.RedAndWhite {
+    background-color: rgb(230, 0, 18);
+    color: white;
+  
+    height: 300px;
+  }
+  
+  .BlackAndBlue {
+    height: 300px;
+  }
+  
+  .header {
+    height: 150px;
+  }
+  
+  .footer {
+    height: 150px;
+  }
+  
+  .navbar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+  }
+  
+  .navbar-title {
+    grid-column: 1;
+    position: relative;
+    top: 20%;
+    left: 15%;
+    font-size: 25px;
+    font-family: Avenir;
+  }
+  
+  .navbar-UL {
+    grid-column: 3/4;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: table;
+  }
+  .navbar-UL li {
+    font-family: Avenir;
+    border: 1px solid rgb(54, 54, 54, 0.3);
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 15px;
+  }
